@@ -10,9 +10,7 @@ export default class AlignItemsBasics extends Component  {
       <View style={styles.container}>
           
             <StatusBar
-              backgroundColor="#1c313b"
-              
-              //this
+              backgroundColor="#1c313a"
               
               barStyle="light-content"
             />
