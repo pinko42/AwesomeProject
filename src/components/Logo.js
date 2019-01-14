@@ -9,7 +9,7 @@ export default class Login extends Component  {
           <View>
             <Image
           style={{width: 70, height: 70}}
-          source={{uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png'}}
+          source={require('../images/Logo.png')}
         />
           </View>
       
