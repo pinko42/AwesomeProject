@@ -1,18 +1,36 @@
 import React, { Component } from 'react';
-import { Platform, View, StyleSheet, Text, Image } from 'react-native';
+import { View, StyleSheet, Text, Image } from 'react-native';
 
 
 
 export default class Login extends Component  {
     render() {
       return (
-          <View>
+          <View style={styles.container}>
+
             <Image
-          style={{width: 70, height: 70}}
-          source={require('../images/Logo.png')}
-        />
+              style={{width: 70, height: 70}}
+              source={require('../images/Logo.png')}
+            />
+            <Text style={styles.logoText}>
+              welcome to my app.
+            </Text>
+
           </View>
       
         );
       }
     }
+
+    const styles = StyleSheet.create({
+      container : {
+        flex : 1,
+        justifyContent : 'center',
+        alignItems : 'center'
+      },
+      logoText : {
+        fontSize: 18,
+        color : 'rgba(255,255,255,0.7)'
+
+      }
+    });
