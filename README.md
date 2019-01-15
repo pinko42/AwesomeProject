@@ -1,2 +1,3 @@
 # AwesomeProject
-une application pour les professionnel
+a beautiful SignIn page made with react native framework.
+hope you like it.
